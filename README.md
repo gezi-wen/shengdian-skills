@@ -1,27 +1,29 @@
-# 圣殿 Skills
+# Shengdian Skills / 圣殿 Skills
+
+A collection of Claude Code Skills created by [Shengdian](https://github.com/gezi-wen). Each skill is standalone — take what you need.
 
 由[圣殿](https://github.com/gezi-wen)创作的 Claude Code Skills 合集。每个 skill 独立可用，按需取用。
 
-## 已收录
+## Skills
 
-| Skill | 说明 |
-|-------|------|
-| [directory-organizer](./directory-organizer/) | 服务器/项目目录整理。扫描诊断→设计提案→分步执行→派子 agent 并行审计。支持 dry-run |
-| [skill-patrol](./skill-patrol/) | AI Agent 技能巡检。每周自动扫描 GitHub 热门 skill/MCP，筛选推荐并推送报告 |
+| Skill | Description / 说明 |
+|-------|-------------------|
+| [file-manager](./file-manager/) | Server & project directory organizer. Scan → propose → execute → audit with sub-agents. Dry-run supported. / 服务器项目目录整理，扫描→提案→执行→子agent并行审计 |
+| [skill-patrol](./skill-patrol/) | AI agent skill patrol. Weekly scan of GitHub trending skills & MCP tools, curated recommendations. / AI Agent 技能巡检，每周扫描 GitHub 热门 skill/MCP 并推送推荐 |
 
-## 安装
+## Install / 安装
 
 ```bash
 git clone https://github.com/gezi-wen/shengdian-skills.git
-cp -r shengdian-skills/directory-organizer ~/.claude/skills/
-# 或者只安装 skill-patrol
+# Install what you need / 按需安装
+cp -r shengdian-skills/file-manager ~/.claude/skills/
 cp -r shengdian-skills/skill-patrol ~/.claude/skills/
 ```
 
-## 相关项目
+## Related / 相关项目
 
-- [nte-auto-fish](https://github.com/gezi-wen/nte-auto-fish) — 游戏自动化脚本
+- [nte-auto-fish](https://github.com/gezi-wen/nte-auto-fish) — Game automation script / 游戏自动化脚本
 
-## License
+## License / 许可
 
 MIT

@@ -35,8 +35,8 @@ A platform-independent skill — works with any AI coding agent that supports sc
 ### 1. 复制并配置 / Clone & Configure
 
 ```bash
-git clone https://github.com/gezi-wen/skill-patrol.git
-cd skill-patrol
+git clone https://github.com/gezi-wen/shengdian-skills.git
+cd shengdian-skills/skill-patrol
 cp patrol_state.example.json patrol_state.json
 # 编辑 patrol_state.json，修改 sources 数组
 # Edit patrol_state.json to customize your sources
