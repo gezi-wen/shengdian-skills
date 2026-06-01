@@ -10,6 +10,7 @@ A collection of Claude Code Skills created by [Shengdian](https://github.com/gez
 |-------|-------------------|
 | [file-manager](./file-manager/) | Server & project directory organizer. Scan → propose → execute → audit with sub-agents. Dry-run supported. / 服务器项目目录整理，扫描→提案→执行→子agent并行审计 |
 | [skill-patrol](./skill-patrol/) | AI agent skill patrol. Weekly scan of GitHub trending skills & MCP tools, curated recommendations. / AI Agent 技能巡检，每周扫描 GitHub 热门 skill/MCP 并推送推荐 |
+| [agent-team-skills](https://github.com/gezi-wen/agent-team-skills) | Multi-agent team token saving bundle: caveman compression + structured output + tool output cap. / 多 agent 团队省 token 三件套：Caveman 压缩 + 结构化输出 + 工具输出截断 |
 
 ## Install / 安装
 
